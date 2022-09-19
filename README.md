@@ -1,4 +1,18 @@
-# Celery - Distributed Task Queue
+[![https://docs.celeryq.dev/en/latest/_images/celery-banner-small.png](https://camo.githubusercontent.com/1b8eb5f2ea4469e45797421fc9a3732ba4bc24508bee42b5a0794317810b9180/68747470733a2f2f646f63732e63656c657279712e6465762f656e2f6c61746573742f5f696d616765732f63656c6572792d62616e6e65722d736d616c6c2e706e67)](https://camo.githubusercontent.com/1b8eb5f2ea4469e45797421fc9a3732ba4bc24508bee42b5a0794317810b9180/68747470733a2f2f646f63732e63656c657279712e6465762f656e2f6c61746573742f5f696d616765732f63656c6572792d62616e6e65722d736d616c6c2e706e67)
+
+ [![Build status](https://github.com/celery/celery/actions/workflows/python-package.yml/badge.svg)](https://github.com/celery/celery/actions/workflows/python-package.yml) [![coverage](https://camo.githubusercontent.com/295da549199e9fecb8a640e66259578f17a0f83bb412805178ee6fdab19635c5/68747470733a2f2f636f6465636f762e696f2f6769746875622f63656c6572792f63656c6572792f636f7665726167652e7376673f6272616e63683d6d6173746572)](https://codecov.io/github/celery/celery?branch=master) [![BSD License](https://camo.githubusercontent.com/45e396a65095ffcf4e27509d344e2ec4959cc5a3e0f9a53a0852c8af942cf828/68747470733a2f2f696d672e736869656c64732e696f2f707970692f6c2f63656c6572792e737667)  ](https://opensource.org/licenses/BSD-3-Clause)[![Celery can be installed via wheel](https://camo.githubusercontent.com/f2a5d283142689b81e8a419df3f2687a6c2b89f320f904a573c6a7c919c85330/68747470733a2f2f696d672e736869656c64732e696f2f707970692f776865656c2f63656c6572792e737667)  ](https://pypi.org/project/celery/)[![Supported Python versions.](https://camo.githubusercontent.com/c04328dfd1a45621e20620b7b4f350366dbe2978bdc00a7e1cc2a9585603c6b7/68747470733a2f2f696d672e736869656c64732e696f2f707970692f707976657273696f6e732f63656c6572792e737667)  ](https://pypi.org/project/celery/)[![Supported Python implementations.](https://camo.githubusercontent.com/025491e05b8ea45f1fe7b723d2e1d652e73d310693cbdfb96bb2848f094835cb/68747470733a2f2f696d672e736869656c64732e696f2f707970692f696d706c656d656e746174696f6e2f63656c6572792e737667)  ](https://pypi.org/project/celery/)[![Backers on Open Collective](https://camo.githubusercontent.com/93161e9735f3ee3472650360b861a768f824ea806a5be60063acb19e2bcb40ec/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f63656c6572792f6261636b6572732f62616467652e737667)](https://github.com/celery/celery#backers) [![Sponsors on Open Collective](https://camo.githubusercontent.com/96b9276f2324187c9dee1225bcd4b0047b278306ce8c083c3ea521e78ff4c758/68747470733a2f2f6f70656e636f6c6c6563746976652e636f6d2f63656c6572792f73706f6e736f72732f62616467652e737667)](https://github.com/celery/celery#sponsors)
+
+Version: 5.3.0b1 (dawn-chorus)
+
+Web: [https://docs.celeryq.dev/en/stable/index.html](https://docs.celeryq.dev/en/stable/index.html)
+
+Download: [https://pypi.org/project/celery/](https://pypi.org/project/celery/)
+
+Source: [https://github.com/celery/celery/](https://github.com/celery/celery/)
+
+Keywords: task, queue, job, async, rabbitmq, amqp, redis, python, distributed, actors
+
+
 **Celery** is an asynchronous task queue based on distributed message passing. Task queues are used as a strategy to distribute the workload between threads/machines.
 
 Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages, while providing operations with the tools required to maintain such a system.
