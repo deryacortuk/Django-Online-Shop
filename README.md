@@ -15,7 +15,7 @@ The consumer takes a message off the queue and starts processing the PDF. At the
 The easiest way to install Celery is using pip:
 
 ```bash
-pip install Celery
+pip install celery
 ```
 To install it on a newer Ubuntu version is very straightforward:
 
