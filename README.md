@@ -1,4 +1,9 @@
+# Celery - Distributed Task Queue
 **Celery** is an asynchronous task queue based on distributed message passing. Task queues are used as a strategy to distribute the workload between threads/machines.
+
+Celery is a simple, flexible, and reliable distributed system to process vast amounts of messages, while providing operations with the tools required to maintain such a system.
+
+Celery has a large and diverse community of users and contributors, you should come join us on IRC or our mailing-list.
 To work with Celery, we also need to install RabbitMQ because Celery requires an external solution to send and receive messages. Those solutions are called **message brokers**. Currently, Celery supports RabbitMQ, Redis, and Amazon SQS as message broker solutions.
 
 **When and why should you use RabbitMQ?**
